@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: blueviolet;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background: rgba(118, 165, 140, 0.08);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+
+#display {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 1em;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(90deg, #2563eb, #10b981);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+#start {
+    background: red;
+}
+
+#stop {
+    background: blue;
+}
+
+#reset {
+    background: orange
+}
+
+
+button {
+    padding: 10px 20px;
+}
